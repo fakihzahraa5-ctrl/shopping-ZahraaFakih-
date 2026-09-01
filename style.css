@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(164, 213, 240)!important;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.navbar-toggler:hover {
+  color: (190, 205, 170) !important;
+}
+.login-table,
+.login-table th,
+.login-table td {
+  background-color: #ede4d3 !important;
+}
+
+.login-table input {
+  background-color: #f8f3e9 !important;
+  border: 1px solid #c2b49a  !important; 
+}
+
+.product-card{
+    background-color: rgb(146, 207, 240) !important;
+}
+
+.card {
+  transition: transform 0.3s 
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  background-color: #f8f3e9 !important;
+  border: 1px solid #c2b49a !important;
+}
+
+.card {
+  background-color: #ede4d3 !important;
+  border: 1px solid #c2b49a !important;
+}
+
+.alert {
+  background-color: #f8f3e9 !important;
+  border: 1px solid #c2b49a !important;
+  color: #4a4536 !important;
+}
+.navbar .nav-link{
+    color: azure;
+    transition: 0.3s;
+}
+.navbar .nav-link:hover{
+    color: rgb(146, 207, 240);
+}
+
+.navbar .nav-link.active{
+    color: rgb(146, 207, 240);
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2; 
+}
+
